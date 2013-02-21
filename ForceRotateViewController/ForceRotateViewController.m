@@ -1,18 +1,18 @@
 //
-//  ViewController.m
+//  ForceRotateViewController.m
 //  ForceRotateExample
 //
 //  Created by croath on 13-2-21.
 //  Copyright (c) 2013年 croath. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "ForceRotateViewController.h"
 
-@interface ViewController ()
+@interface ForceRotateViewController ()
 
 @end
 
-@implementation ViewController
+@implementation ForceRotateViewController
 
 - (void)viewDidLoad
 {

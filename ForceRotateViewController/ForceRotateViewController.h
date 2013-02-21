@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ForceRotateViewController.h
 //  ForceRotateExample
 //
 //  Created by croath on 13-2-21.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ForceRotateViewController : UIViewController
 
 @end

@@ -16,9 +16,9 @@
 		277281F616D5D3A90094D54E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 277281F516D5D3A90094D54E /* Default.png */; };
 		277281F816D5D3A90094D54E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 277281F716D5D3A90094D54E /* Default@2x.png */; };
 		277281FA16D5D3A90094D54E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 277281F916D5D3A90094D54E /* Default-568h@2x.png */; };
-		277281FD16D5D3A90094D54E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 277281FC16D5D3A90094D54E /* ViewController.m */; };
 		2772820016D5D3A90094D54E /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 277281FE16D5D3A90094D54E /* ViewController_iPhone.xib */; };
 		2772820316D5D3A90094D54E /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2772820116D5D3A90094D54E /* ViewController_iPad.xib */; };
+		2772820C16D5D50F0094D54E /* ForceRotateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2772820B16D5D50F0094D54E /* ForceRotateViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,10 +35,10 @@
 		277281F516D5D3A90094D54E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		277281F716D5D3A90094D54E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		277281F916D5D3A90094D54E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		277281FB16D5D3A90094D54E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		277281FC16D5D3A90094D54E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		277281FF16D5D3A90094D54E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
 		2772820216D5D3A90094D54E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		2772820A16D5D50F0094D54E /* ForceRotateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForceRotateViewController.h; sourceTree = "<group>"; };
+		2772820B16D5D50F0094D54E /* ForceRotateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForceRotateViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,10 +87,9 @@
 			children = (
 				277281F216D5D3A90094D54E /* AppDelegate.h */,
 				277281F316D5D3A90094D54E /* AppDelegate.m */,
-				277281FB16D5D3A90094D54E /* ViewController.h */,
-				277281FC16D5D3A90094D54E /* ViewController.m */,
 				277281FE16D5D3A90094D54E /* ViewController_iPhone.xib */,
 				2772820116D5D3A90094D54E /* ViewController_iPad.xib */,
+				2772820916D5D50F0094D54E /* ForceRotateViewController */,
 				277281EA16D5D3A90094D54E /* Supporting Files */,
 			);
 			path = ForceRotateExample;
@@ -108,6 +107,16 @@
 				277281F916D5D3A90094D54E /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2772820916D5D50F0094D54E /* ForceRotateViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2772820A16D5D50F0094D54E /* ForceRotateViewController.h */,
+				2772820B16D5D50F0094D54E /* ForceRotateViewController.m */,
+			);
+			name = ForceRotateViewController;
+			path = ../../ForceRotateViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,7 +188,7 @@
 			files = (
 				277281F016D5D3A90094D54E /* main.m in Sources */,
 				277281F416D5D3A90094D54E /* AppDelegate.m in Sources */,
-				277281FD16D5D3A90094D54E /* ViewController.m in Sources */,
+				2772820C16D5D50F0094D54E /* ForceRotateViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
