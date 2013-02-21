@@ -1,7 +1,7 @@
 ForceRotateViewController
 =========================
 
-force the view controller to rotate via gyroscopes.
+force the view controller to rotate via gyroscopes when user lock the rotation.
 
 **ONLY** for custom camera or something similar.
 
