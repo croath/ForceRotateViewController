@@ -19,6 +19,7 @@
 		2772820016D5D3A90094D54E /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 277281FE16D5D3A90094D54E /* ViewController_iPhone.xib */; };
 		2772820316D5D3A90094D54E /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2772820116D5D3A90094D54E /* ViewController_iPad.xib */; };
 		2772820C16D5D50F0094D54E /* ForceRotateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2772820B16D5D50F0094D54E /* ForceRotateViewController.m */; };
+		2772820E16D5D6A20094D54E /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2772820D16D5D6A20094D54E /* CoreMotion.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		2772820216D5D3A90094D54E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
 		2772820A16D5D50F0094D54E /* ForceRotateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForceRotateViewController.h; sourceTree = "<group>"; };
 		2772820B16D5D50F0094D54E /* ForceRotateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForceRotateViewController.m; sourceTree = "<group>"; };
+		2772820D16D5D6A20094D54E /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2772820E16D5D6A20094D54E /* CoreMotion.framework in Frameworks */,
 				277281E416D5D3A90094D54E /* UIKit.framework in Frameworks */,
 				277281E616D5D3A90094D54E /* Foundation.framework in Frameworks */,
 				277281E816D5D3A90094D54E /* CoreGraphics.framework in Frameworks */,
@@ -75,6 +78,7 @@
 		277281E216D5D3A90094D54E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2772820D16D5D6A20094D54E /* CoreMotion.framework */,
 				277281E316D5D3A90094D54E /* UIKit.framework */,
 				277281E516D5D3A90094D54E /* Foundation.framework */,
 				277281E716D5D3A90094D54E /* CoreGraphics.framework */,
