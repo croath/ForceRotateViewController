@@ -1,4 +1,4 @@
-ForceRotateViewController
+ForceRotateViewController[![Build Status](https://travis-ci.org/croath/ForceRotateViewController.png)](https://travis-ci.org/croath/ForceRotateViewController)
 =========================
 
 force the view controller to rotate via gyroscopes when user lock the rotation.
