@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <xcodebuild> 
+    <projectPath>ForceRotateExample/ForceRotateExample.xcodeproj</projectPath>
+    <targetName>ForceRotateExample</targetName>
+    <SDK></SDK>
+    <adhoc>
+      <Configuration>Debug</Configuration>
+      <mobile_provision></mobile_provision>
+      <app_name>ForceRotateExample</app_name>
+      <app_icon></app_icon>
+      <app_bundle_id>com.croath.frexample.ForceRotateExample</app_bundle_id>
+    </adhoc>
+</xcodebuild>
